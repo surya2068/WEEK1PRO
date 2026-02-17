@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1b1e26, #7ec1a9);
+}
+
+/* Full screen center */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;   /* horizontal */
+  align-items: center;       /* vertical */
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.status-online {
+  color: green;
+  font-weight: bold;
+}
+
+.status-offline {
+  color: red;
+  font-weight: bold;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4e73df;
+  color: white;
+}
+
+button:hover {
+  background-color: #2e59d9;
+}
